@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport health news webSite</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <!-- mon css -->
+    <link rel="stylesheet" href="/CSS/index.css">
+
+</head>
+
+<body>
+    <!-- la barre de navigation-->
+    <header class="navbar fixed-top navbar-expand-md navbar-light bg-info">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+            style="background-color: white;">
+            <!--navbar-toggler-icon permet d'ajouter l'icon du button pour les ecrans les plus petits-->
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbar-content">
+            <div class=" container-fluid">
+                <div class="collapse navbar-collapse" id="navbar-content">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="index.html">Acceuil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sport.html">Sport</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="Sante.html">Santé</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="recherche" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">chercher</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- <div class="card w-75 main" style="margin-top: 100px; margin-left: 30px;">
+        <div class=" card-body">
+            <h5 class="card-title">Santé</h5>
+        </div>
+    </div> -->
+
+    <div class="row">
+        <div class="col-sm-8" style="margin-top: 100px; margin-left: 30px;">
+            <div class="card">
+                <div class="card-body bg-success">
+                    <h5 class="card-title " style="font-size: 30px; color:white;">Santé</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3" style="margin-top: 100px; margin-left: 40px;">
+            <div class=" card">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 30px;">News</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-8" style="margin-top: 50px; margin-left: 30px;">
+            <div class="card">
+                <div class="card-body">
+
+
+                    <div class="row">
+                        <div class="col-sm-4" style=" margin-left: 30px;">
+                            <div class="card" style="margin-top: 20px;">
+                                <img class="card-img-top" src="images/pese.jpg" alt="Card image cap"
+                                    style="height: 200px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style=" margin-left: 40px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Une perte de poids substantielle réduit le risque de
+                                    complications graves de la COVID-19</h5>
+                                <p class="card-text">Une étude montre que chez les patients obèses, la perte de poids
+                                    antérieure obtenue grâce à la chirurgie bariatrique était associée à un risque plus
+                                    de deux fois plus faible de développer des complications graves dues à une infection
+                                    à la COVID-19.</p>
+                                <a href="DetailleSante.html" class="btn btn-success">lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+
+                    <div class="row">
+                        <div class="col-sm-4" style=" margin-left: 30px;">
+                            <div class="card" style="width: 18rem; margin-top: 20px;">
+                                <img class="card-img-top" src="images/omicron1.png" alt="Card image cap"
+                                    style="height: 200px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style=" margin-left: 40px;">
+                            <div class="card-body">
+                                <h5 class="card-title">Variant Omicron (B.1.1.529) : nombre de cas en France, symptômes,
+                                    efficacité des vaccins</h5>
+                                <p class="card-text">Plusieurs variants du coronavirus SARS-CoV-2 ont fait leur
+                                    apparition depuis le début de la pandémie. Désormais, en France, c'est le variant
+                                    Omicron qui est devenu majoritaire, quelques semaines seulement après son apparition
+                                    en Afrique du Sud. Combien de cas ? Quelle est l'efficacité des vaccins contre ce
+                                    nouveau variant ?
+                                </p>
+                                <a href="DetailleSante.html" class="btn btn-success">lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+
+                    <div class="row">
+                        <div class="col-sm-4" style=" margin-left: 30px;">
+                            <div class="card" style="width: 18rem; margin-top: 20px;">
+                                <img class="card-img-top" src="images/dents.jpg" alt="Card image cap"
+                                    style="height: 200px;">
+                            </div>
+                        </div>
+                        <div class="col-sm-6" style=" margin-left: 40px;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Les dentifrices blanchissants sont-ils vraiment efficaces ?</h5>
+                                <p class="card-text">Tous les dentifrices blanchissants ne se valent pas. Que valent
+                                    vraiment les dentifrices blanchissants ? Sont-ils vraiment efficaces ? Y-a-t-il des
+                                    précautions à prendre ? Une pharmacienne nous donne son avis.
+                                </p>
+                                <a href="DetailleSante.html" class="btn btn-success">lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4" style=" margin-left: 30px;">
+                        <div class="card" style="width: 18rem; margin-top: 20px;">
+                            <img class="card-img-top" src="images/covid.jpg" alt="Card image cap"
+                                style="height: 200px;">
+                        </div>
+                    </div>
+                    <div class="col-sm-6" style=" margin-left: 40px;">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Covid-19: la fin de l’épidémie est-elle proche? De bonnes nouvelles
+                                et quelques incertitudes
+                            </h5>
+                            <p class="card-text">
+                                DÉCRYPTAGE - Si la France semble devoir sortir bientôt de la vague Omicron, la fin de la
+                                pandémie est encore incertaine.
+                            </p>
+                            <a href="DetailleSante.html" class="btn btn-success">lire la suite</a>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+
+</body>
+
+</html>
